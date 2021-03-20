@@ -1,0 +1,180 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.home-section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url("../images/bg1.jpg");
+    color: #fff;
+    padding-left: 110px;
+    padding-top: 130px;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    height: auto%;
+    width: 100%;
+}
+
+.site-sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    width: 25%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    background-color: rgb(1 2 1 / 80%);
+}
+
+.site-sidebar .site-sidebar-inner {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    padding: 45px 40px
+}
+
+.site-sidebar .person {
+    text-align: center;
+    text-decoration: none;
+}
+
+.person .person-avatar .avatar {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+}
+
+.person .person-content .person-title {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.person .person-content .person-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-navigation {
+    margin: 45px -40px;
+    line-height: 30px;
+    position: relative;
+    font-size: 14px;
+}
+
+.home-section .home-section-inner {
+    max-width: 840px;
+    margin-left: 25%;
+}
+
+.home-section .home-heading {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.home-section .home-subheading {
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.home-section .home-buttons {
+    margin-top: 5.15em;
+    font-size: 2em;
+}
+
+.site-sidebar .block-social {
+    margin-top: 45px;
+}
+
+.site-sidebar .block-title {
+    font-size: 11px;
+    font-weight: 300;
+    color: #aaa;
+    color: rgba(255,255,255,.5);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.site-sidebar .block-main-navigation {
+    margin-top: 50px;
+}
+
+.navigation-extendable ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #cfcccc;
+}
+
+.navigation-extendable ul li a:hover {
+    color: #fff;
+}
+
+.navigation-extendable ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.front-end {
+    color: #5db8ff;
+}
+
+.home-buttons a {
+    border: 1px solid #cfcccc;
+    color: #cfcccc;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    width: 50px;
+}
+
+.home-buttons a:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.social-icons a {
+    color: #cfcccc;
+    border: 1px solid #cfcccc;
+    padding: 10px 13px;
+    border-radius: 50%;
+    width: 91px;
+}
+
+.social-icons a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.block-social .block-title {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.portfolio-main .span-title {
+    color: #5db8ff;
+}
+
+.portfolio-main .img-list {
+    margin-top: 10px;;
+}
+
+.portfolio-main .project-link {
+    color: #5db8ff;
+    text-decoration: none;
+}
+
+.portfolio-main .company-details {
+    font-size: 14px;
+}
